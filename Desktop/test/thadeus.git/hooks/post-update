@@ -1,0 +1,19 @@
+#!/bin/sh
+#!/bin/bash
+#
+# An example hook script to prepare a packed repository for use over
+# dumb transports.
+#
+# To enable this hook, rename this file to "post-update".
+
+
+    branch=$(git rev-parse --symbolic --abbrev-ref $1)
+    
+    if [ $branch = "master" ]; then
+        touch hola.txt
+        echo "Update pushed to branch $branch"
+    else
+        echo "Update pushed to branch $branch"
+    fi
+    
+    exec git update-server-info
