@@ -1,0 +1,31 @@
+    branch=$(git rev-parse --symbolic --abbrev-ref $1)
+    
+    if [ $branch = "master" ]; then
+        #git config core.bare false
+        #cd ../
+        #git init --bare zion1
+        git --work-tree=/Users/Omar/desktop/git/post_update_hook/zion checkout -f $branch 
+        #cd ../
+        #cd zion
+        #git remote add origin /Users/Omar/desktop/git/monday/thadeus.git
+        #git pull /Users/Omar/desktop/git/monday/thadeus.git
+        #git pull /Users/Omar/desktop/git/monday/thadeus.git
+        #git remote add /Users/Omar/desktop/git/monday/master2
+        #git init -bare master100
+        #cd master100
+        #git init
+        #git remote add test /Users/Omar/desktop/git/monday/hola
+        #git push -u origin master
+        #gi checkout -f /Users/Omar/desktop/git/monday/thadeus.git
+        #git clone /Users/Omar/desktop/git/monday/thadeus.git hola
+        #touch master4.txt
+        echo "Update pushed to branch $branch"
+        
+    elif [ $branch = "develop" ]; then
+        git --work-tree=/Users/Omar/desktop/git/post_update_hook/matrix checkout -f $branch 
+        echo "Update pushed to branch $branch"
+    else
+        echo "nothing has been pushed"
+    fi
+    
+    exec git update-server-info
