@@ -3,7 +3,7 @@ body {
 }
 
 /* #### iPhone 4+ Portrait or Landscape #### */
-@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+@media screen and (max-device-width: 580px) and (-webkit-min-device-pixel-ratio: 2){
     /* some CSS here */
     .container {
         width: 100%;
@@ -42,8 +42,16 @@ body {
 
 
     /*MAIN*/
+    .background-rectangle {
+        background-color: rgba(0, 0, 0, 0.2);;
+        width: 700px;
+        height: 700px;
+        position: relative;
+        top: 765px;
+        left: 132px;
+    }
     .main {
-
+        text-align: center;
     }
 
     .main h6 {
@@ -68,7 +76,7 @@ body {
 
     .main .username .username-text {
         background-color: #2F6168;
-        font-size: 16px;
+        /*font-size: 14px;*/
         font-family: "Myriad Pro";
         color: rgb(255, 255, 255);
         line-height: 1.125;
@@ -76,17 +84,19 @@ body {
         -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         position: absolute;
-        left: 364.5px;
+        left: 375.5px;
         top: 943px;
         z-index: 19;
         margin-top: 35px;
-        padding: 8px;
+        padding: 11px;
         width: 212px;
+        border: none;
+        outline: none;
     }
 
     .main .password .password-text {
         background-color: #2F6168;
-        font-size: 16px;
+        /*font-size: 14px;*/
         font-family: "Myriad Pro";
         color: rgb(255, 255, 255);
         line-height: 1.125;
@@ -95,15 +105,18 @@ body {
         -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         position: absolute;
-        left: 364.5px;
+        left: 375.5px;
         top: 1104.5px;
         z-index: 14;
         margin-top: 6px;
-        padding: 8px;
+        padding: 11px;
         width: 212px;
+        border: none;
+        outline:none;
     }
 
     .main .sign-in {
+        border-radius: 8px;
         text-transform: uppercase;
         font-size: 18px;
         font-family: "Myriad Pro";
@@ -114,7 +127,7 @@ body {
         -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         position: absolute;
-        left: 416px;
+        left: 430px;
         top: 1265px;
         z-index: 10;
         background-color: #5599A2;
@@ -131,9 +144,30 @@ body {
         -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
         position: absolute;
-        left: 432.5px;
+        left: 446.5px;
         top: 1380.127px;
         z-index: 7;
     }
+
+    .main .username ::-webkit-input-placeholder::before {
+        font-family: fontAwesome;
+        content: '\f007 ';
+        color: lightblue
+    }
+
+    .main .password ::-webkit-input-placeholder::before {
+        font-family: fontAwesome;
+        content: '\f023 ';
+        color: lightblue
+    }
+
+
+
+
+
+
+
+
+
 
     }
