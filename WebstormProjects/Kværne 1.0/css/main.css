@@ -1,0 +1,139 @@
+body {
+    background: url("../images/_bg.png");
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    /* some CSS here */
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /*HEADER*/
+    .header {
+
+    }
+
+    .logo {
+        background: url("../images/Logo.png");
+        position: absolute;
+        left: 112px;
+        top: 322px;
+        width: 772px;
+        height: 118px;
+        z-index: 113;
+    }
+
+    .header p {
+        font-size: 15.5px;
+        font-family: "ITC Avant Garde Gothic Std";
+        color: rgb(255, 255, 255);
+        line-height: 1.161;
+        -moz-transform: matrix( 5.72338418709013,0,0,5.72567380777336,0,0);
+        -webkit-transform: matrix( 5.72338418709013,0,0,5.72567380777336,0,0);
+        -ms-transform: matrix( 5.72338418709013,0,0,5.72567380777336,0,0);
+        position: absolute;
+        left: 340px;
+        top: 519.003px;
+        z-index: 4;
+    }
+
+
+    /*MAIN*/
+    .main {
+
+    }
+
+    .main h6 {
+        font-size: 12.5px;
+        font-family: "Futura";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.161;
+        -moz-transform: matrix( 2.72559542702913,0,0,2.72668579235493,0,0);
+        -webkit-transform: matrix( 2.72559542702913,0,0,2.72668579235493,0,0);
+        -ms-transform: matrix( 2.72559542702913,0,0,2.72668579235493,0,0);
+        position: absolute;
+        left: 378px;
+        top: 822px;
+        z-index: 23;
+    }
+
+    ::-webkit-input-placeholder {
+        /*font-family: "Futura";*/
+        color: rgb(255, 255, 255);
+    }
+
+    .main .username .username-text {
+        background-color: #2F6168;
+        font-size: 16px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 1.125;
+        -moz-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        position: absolute;
+        left: 364.5px;
+        top: 943px;
+        z-index: 19;
+        margin-top: 35px;
+        padding: 8px;
+        width: 212px;
+    }
+
+    .main .password .password-text {
+        background-color: #2F6168;
+        font-size: 16px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 1.125;
+        text-align: left;
+        -moz-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        position: absolute;
+        left: 364.5px;
+        top: 1104.5px;
+        z-index: 14;
+        margin-top: 6px;
+        padding: 8px;
+        width: 212px;
+    }
+
+    .main .sign-in {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 1;
+        text-align: left;
+        -moz-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        position: absolute;
+        left: 416px;
+        top: 1265px;
+        z-index: 10;
+        background-color: #5599A2;
+        padding: 13px 36px 10px 36px;
+    }
+
+    .main p {
+        font-size: 13px;
+        font-family: "Myriad Pro";
+        color: rgb(255, 255, 255);
+        line-height: 1.125;
+        text-align: left;
+        -moz-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -webkit-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        -ms-transform: matrix( 2.34673744421837,0,0,2.3476762486765,0,0);
+        position: absolute;
+        left: 432.5px;
+        top: 1380.127px;
+        z-index: 7;
+    }
+
+    }
