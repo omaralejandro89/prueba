@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime id\="com.ibm.worklight" id-set\="true" location\="/Users/Omar/Applications/eclipse/plugins/com.worklight.studio.plugin_6.2.0.01-20141027-1531/liberty/wlp" name\="Worklight Development Server" runtime-type-id\="com.ibm.ws.st.runtime.v85.was" timestamp\="0">\n    <list key\="user-dirs" value0\="/Users/Omar/Documents/workspace/WorklightServerConfig"/>\n  </runtime>\n</runtimes>\n

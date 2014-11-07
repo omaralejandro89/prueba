@@ -1,0 +1,671 @@
+/*C2*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C12*/SET SCHEMA PUBLIC
+INSERT INTO CLUSTER_SYNC VALUES('factProcessingTask',NULL,0,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366747518,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='factProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('factProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366747518,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366747518,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366747519,0)
+COMMIT
+/*C10*/SET SCHEMA PUBLIC
+DELETE FROM CLUSTER_SYNC WHERE ID='factProcessingTask'
+COMMIT
+/*C12*/INSERT INTO LICENSE_TERMS VALUES(6,0,1,0,'2014-11-07 14:25:47.550000',0)
+COMMIT
+ALTER SEQUENCE PUBLIC.LICENSETERMS_SEQ RESTART WITH 11
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366777531,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366777531,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366777531,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366807536,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366807536,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366807536,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366837542,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366837542,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366837542,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366867547,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366867547,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366867547,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366897554,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366897554,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366897555,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366927560,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366927560,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366927560,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366957564,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366957564,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366957564,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366987568,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366987568,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415366987568,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367017573,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367017573,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367017573,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367047578,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367047578,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367047578,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367077583,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367077583,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367077583,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367107589,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367107589,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367107589,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367137594,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367137594,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367137594,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367167600,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367167600,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367167600,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367197605,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367197605,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367197605,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367227609,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367227609,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367227609,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367257613,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367257614,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367257614,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367287619,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367287619,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367287619,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367317624,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367317624,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367317624,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367347628,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367347628,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367347628,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367377634,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367377634,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367377634,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367407639,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367407639,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367407639,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367437644,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367437644,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367437644,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367467649,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367467649,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367467649,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367497655,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367497655,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367497655,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367527666,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367527667,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367527667,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367557687,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367557687,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367557687,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367587693,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367587693,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367587693,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367617697,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367617697,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367617698,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367647703,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367647703,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367647703,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367677709,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367677710,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367677710,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367707717,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367707717,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367707717,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367737722,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367737722,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367737722,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367767727,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367767728,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367767728,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367797734,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367797734,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367797734,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367827741,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367827741,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367827741,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367857747,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367857747,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367857747,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367887751,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367887751,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367887751,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367917756,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367917756,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367917756,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367947764,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367947765,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367947765,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367977772,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367977772,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415367977772,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368007778,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368007778,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368007778,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368037785,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368037785,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368037785,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368067790,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368067790,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368067790,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368097799,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368097799,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368097799,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368127806,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368127806,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368127806,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368157811,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368157811,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368157811,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368187816,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368187816,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368187816,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368217827,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368217828,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368217828,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368247836,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368247836,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368247836,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368277842,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368277843,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368277843,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368307849,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368307849,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368307850,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368337856,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368337856,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368337856,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368367861,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368367861,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368367861,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368397866,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368397866,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368397866,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368427873,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368427873,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368427873,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368457879,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368457879,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368457879,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368487883,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368487883,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368487884,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368517890,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368517890,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368517890,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368547897,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368547897,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368547897,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368577905,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368577905,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368577905,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368607910,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368607910,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368607910,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368637914,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368637914,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368637914,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368667919,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368667919,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368667919,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368697926,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368697926,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368697926,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368727934,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368727934,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368727934,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368757938,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368757939,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368757939,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368787944,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368787944,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368787944,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368817950,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368817950,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368817950,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368847958,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368847958,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368847958,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368877964,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368877964,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368877964,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368907970,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368907970,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368907970,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368937975,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368937975,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368937975,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368967980,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368967980,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368967980,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368997987,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368997987,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415368997987,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369027994,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369027994,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369027994,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369057999,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369057999,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369058000,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369088006,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369088006,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369088007,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369118012,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369118012,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369118012,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369148019,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369148019,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369148019,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369178027,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369178027,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369178027,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369208033,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369208033,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369208033,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369238068,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369238068,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369238068,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369268092,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369268092,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369268092,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369298104,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369298105,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369298105,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369328112,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369328112,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369328112,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369358117,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369358117,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369358117,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369388124,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369388124,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369388124,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369418131,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369418131,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369418131,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369448139,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369448139,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369448139,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369478145,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369478145,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369478145,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369508152,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369508152,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369508152,0)
+COMMIT
+DELETE FROM CLUSTER_SYNC WHERE ID='PlatformUsageProcessingTask'
+INSERT INTO CLUSTER_SYNC VALUES('PlatformUsageProcessingTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369538157,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='notificationCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('notificationCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369538157,0)
+DELETE FROM CLUSTER_SYNC WHERE ID='ssoExpiredLoginContextsCleanupTask'
+INSERT INTO CLUSTER_SYNC VALUES('ssoExpiredLoginContextsCleanupTask','Omars-MacBook-Pro.local:-2dbdb463:1498a6dfc52:-7ffe',1415369538157,0)
+COMMIT

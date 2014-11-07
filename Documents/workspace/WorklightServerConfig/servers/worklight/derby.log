@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Fri Nov 07 14:25:17 CET 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0149-8a6e-316e-000000ebb138 
+on database directory /Users/Omar/Documents/workspace/WorklightServerConfig/shared/resources/derbyDB/WLADMIN  with class loader com.ibm.ws.classloading.internal.AppClassLoader@4c6cbd72 
+Loaded from null
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_65-b14-462-11M4609
+user.dir=/Users/Omar/Documents/workspace/WorklightServerConfig/servers/worklight
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

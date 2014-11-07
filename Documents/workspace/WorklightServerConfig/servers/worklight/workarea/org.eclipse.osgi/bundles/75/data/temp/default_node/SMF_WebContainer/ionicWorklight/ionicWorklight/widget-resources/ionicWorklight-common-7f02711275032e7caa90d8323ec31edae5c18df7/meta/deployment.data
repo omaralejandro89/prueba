@@ -1,0 +1,17 @@
+#Deployment data.
+#Fri Nov 07 14:25:32 CET 2014
+app.login.displaytype=POPUP
+app.build.time=1415366732475
+app.displayname=ionicWorklight
+platform.version=6.2.0.01.20141027-1531
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=5790582
+app.mainfile=index.html
+app.description=ionicWorklight
+app.login.popup.width=920
+app.checksum.default=2238564265
+app.login.popup.height=610
+app.id=ionicWorklight

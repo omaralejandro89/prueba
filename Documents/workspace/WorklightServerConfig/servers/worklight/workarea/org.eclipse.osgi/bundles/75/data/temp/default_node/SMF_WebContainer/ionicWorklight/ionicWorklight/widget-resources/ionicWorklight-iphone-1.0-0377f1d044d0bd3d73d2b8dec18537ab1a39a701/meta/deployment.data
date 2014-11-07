@@ -1,0 +1,21 @@
+#Deployment data.
+#Fri Nov 07 14:25:33 CET 2014
+app.authenticity.obscuredata=23.507-9.852-31.807
+app.description=ionicWorklight
+app.checksum.default=1688855196
+app.unpacked.size.default=6273087
+platform.version=6.2.0.01.20141027-1531
+app.build.time=1415366733614
+app.displayname=ionicWorklight
+app.login.displaytype=EMBEDDED
+app.ios.bundle.id=com.ionicWorklight
+app.version=1.0
+app.id=ionicWorklight
+app.login.popup.height=610
+app.author.email=application author's e-mail
+native=557946958
+app.login.popup.width=920
+app.environment=iphone
+app.mainfile=index.html
+app.author.name=application's author
+app.authenticity.shareddata=com.ionicWorklight

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ionicWorklight</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "ionicWorklight",
+   "APP_ID": "ionicWorklight",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "iphone",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "557946958",
+   "WORKLIGHT_PLATFORM_VERSION": "6.2.0.01.20141027-1531",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/ionicWorklight\/iphone\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="lib/ionic/js/ionic.bundle.js"></script>				    
+		    <script src="cordova.js"></script>
+		     <!-- your app's js -->
+    		<script src="js/app.js"></script>
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    </head>
+    <body style="display: none;">
+    		<!--application UI goes here-->
+    		Hello Worklight using Ionic and Angular
+    		<ion-pane>
+            <ion-header-bar class="bar-stable">
+                <h1 class="title">Ionic Blank Starter</h1>
+            </ion-header-bar>
+            <ion-content>
+            </ion-content>
+        </ion-pane>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    </body>
+</html>

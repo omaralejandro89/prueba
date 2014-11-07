@@ -1,0 +1,1 @@
+service:jmx:rest://192.168.1.133:10443/IBMJMXConnectorREST
